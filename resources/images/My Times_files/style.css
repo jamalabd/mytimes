@@ -10,12 +10,11 @@ height: 80px;
 font-size: 14px;
 font-family: Verdana;
 font-weight: bold;
-top: 0;
 }
 
 .logo span {
   display: flex;
-  margin: 10Px 450px 10px 10px;
+  margin: 10PX;
   color: MediumAquamarine;
 }
 
@@ -48,14 +47,10 @@ nav {
 .content {
   display: flex;
   border: 1px solid black;
-  min-width: auto;
-  min-height: auto;
+  width: 700px;
   justify-content: space-between;
   position: relative;
-  top: 150px;
-  flex-shrink: 0;
-  padding-top: 40px;
-  padding-right: 30px;
+  top: 100px;
 
 }
 
@@ -88,15 +83,14 @@ nav {
 .second.story{
   display: block;
   min-width: 630px;
-  height: 139px;
+  height: 120px;
   border: 1px solid black;
-  top: 203px;
+  top: 204px;
   position: relative;
-  right: 632px;
+  right: 297px;
 }
 
 .image.space{
-  display: inline-block;
+  display: inline-flex;
   border: 1px solid black;
-  width: 100%;
 }
