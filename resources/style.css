@@ -45,6 +45,12 @@ nav {
   display: block;
 }
 
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 .content {
   display: flex;
   border: 1px solid black;
@@ -62,7 +68,7 @@ nav {
 
 .column.large {
   width: 630px;
-  height: 650px;
+  height: 1390px;
   display: flex;
   border: 1px solid black;
 }
@@ -82,7 +88,7 @@ nav {
 .first.story{
   display: block;
   min-width: 630px;
-  height: 200px;
+  height: 1090px;
   border: 1px solid black;
 }
 
@@ -91,7 +97,7 @@ nav {
   min-width: 630px;
   height: 139px;
   border: 1px solid black;
-  top: 203px;
+  top: 520px;
   position: relative;
   right: 632px;
 }
@@ -99,9 +105,9 @@ nav {
 .third.story {
   display: block;
   min-width: 630px;
-  height: 139px;
+  height: 30px;
   border: 1px solid black;
-  top: 345px;
+  top: 659px;
   position: relative;
   right: 1265px;
 }
@@ -109,7 +115,7 @@ nav {
 .fourth.story {
   display: block;
   min-width: 300px;
-  height: 335px;
+  height: 400px;
   border: 1px solid black;
   top: 0px;
   position: relative;
@@ -118,15 +124,15 @@ nav {
 .fith.story{
   display: block;
   min-width: 300px;
-  height: 312px;
+  height: 525px;
   border: 1px solid black;
-  top: 338px;
+  top: 400px;
   position: relative;
   right: 302px
 }
 
 .image.space{
-  display: inline-block;
+  display: flex;
   border: 1px solid black;
   width: 100%;
 }
@@ -150,4 +156,38 @@ nav {
   position: relative;
   right: 242px;
 
+}
+
+.image.space.a {
+  font-size: 40px;
+  height: 300px;
+  width: 630px;
+  background-image: url('../resources/images/img-story-main.png');
+}
+
+.image.space.b {
+  height: 300px;
+  width: 630px;
+  background-image: url('../resources/images/img-story-2.png');
+}
+
+.image.space.c {
+  height: 300px;
+  width: 630px;
+  background-image: url('../resources/images/img-story-3.png');
+  top: 240;
+}
+
+.image.space.d {
+  height: 300px;
+  width: 300px;
+  background-image: url('../resources/images/img-story-1.png');
+  top: 240;
+}
+
+.image.space {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
